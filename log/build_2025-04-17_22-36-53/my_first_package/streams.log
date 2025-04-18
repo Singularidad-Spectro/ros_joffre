@@ -1,0 +1,37 @@
+[23.943s] Invoking command in '/home/joffre/ros2_tutorials_ws/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joffre/ros2_tutorials_ws/src/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_first_package build --build-base /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build install --record /home/joffre/ros2_tutorials_ws/src/build/my_first_package/install.log --single-version-externally-managed install_data
+[28.539s] running egg_info
+[28.555s] creating ../build/my_first_package/my_first_package.egg-info
+[28.858s] writing ../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[28.870s] writing dependency_links to ../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[28.874s] writing entry points to ../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[28.880s] writing requirements to ../build/my_first_package/my_first_package.egg-info/requires.txt
+[28.883s] writing top-level names to ../build/my_first_package/my_first_package.egg-info/top_level.txt
+[28.885s] writing manifest file '../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[29.529s] reading manifest file '../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[29.544s] writing manifest file '../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[29.546s] running build
+[29.547s] running build_py
+[29.554s] creating /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build
+[29.554s] creating /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib
+[29.554s] creating /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib/my_first_package
+[29.559s] copying my_first_package/__init__.py -> /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib/my_first_package
+[29.560s] copying my_first_package/joffe_node.py -> /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib/my_first_package
+[29.591s] running install
+[29.641s] running install_lib
+[29.952s] creating /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[29.956s] copying /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[29.964s] copying /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build/lib/my_first_package/joffe_node.py -> /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[29.970s] byte-compiling /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package/__init__.py to __init__.cpython-312.pyc
+[29.978s] byte-compiling /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package/joffe_node.py to joffe_node.cpython-312.pyc
+[29.983s] running install_data
+[29.983s] creating /home/joffre/ros2_tutorials_ws/src/install/my_first_package/share/ament_index
+[29.988s] creating /home/joffre/ros2_tutorials_ws/src/install/my_first_package/share/ament_index/resource_index
+[29.988s] creating /home/joffre/ros2_tutorials_ws/src/install/my_first_package/share/ament_index/resource_index/packages
+[29.997s] copying resource/my_first_package -> /home/joffre/ros2_tutorials_ws/src/install/my_first_package/share/ament_index/resource_index/packages
+[29.998s] copying package.xml -> /home/joffre/ros2_tutorials_ws/src/install/my_first_package/share/my_first_package
+[29.998s] running install_egg_info
+[30.573s] Copying ../build/my_first_package/my_first_package.egg-info to /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[30.601s] running install_scripts
+[34.132s] Installing joffe_node script to /home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/my_first_package
+[34.150s] writing list of installed files to '/home/joffre/ros2_tutorials_ws/src/build/my_first_package/install.log'
+[34.573s] Invoked command in '/home/joffre/ros2_tutorials_ws/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joffre/ros2_tutorials_ws/src/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joffre/ros2_tutorials_ws/src/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_first_package build --build-base /home/joffre/ros2_tutorials_ws/src/build/my_first_package/build install --record /home/joffre/ros2_tutorials_ws/src/build/my_first_package/install.log --single-version-externally-managed install_data

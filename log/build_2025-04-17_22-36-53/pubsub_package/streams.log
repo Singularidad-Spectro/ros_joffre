@@ -1,0 +1,37 @@
+[34.603s] Invoking command in '/home/joffre/ros2_tutorials_ws/src/pubsub_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joffre/ros2_tutorials_ws/src/build/pubsub_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pubsub_package build --build-base /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build install --record /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/install.log --single-version-externally-managed install_data
+[44.869s] running egg_info
+[44.882s] creating ../build/pubsub_package/pubsub_package.egg-info
+[45.475s] writing ../build/pubsub_package/pubsub_package.egg-info/PKG-INFO
+[45.485s] writing dependency_links to ../build/pubsub_package/pubsub_package.egg-info/dependency_links.txt
+[45.490s] writing entry points to ../build/pubsub_package/pubsub_package.egg-info/entry_points.txt
+[45.494s] writing requirements to ../build/pubsub_package/pubsub_package.egg-info/requires.txt
+[45.494s] writing top-level names to ../build/pubsub_package/pubsub_package.egg-info/top_level.txt
+[45.498s] writing manifest file '../build/pubsub_package/pubsub_package.egg-info/SOURCES.txt'
+[46.390s] reading manifest file '../build/pubsub_package/pubsub_package.egg-info/SOURCES.txt'
+[46.404s] writing manifest file '../build/pubsub_package/pubsub_package.egg-info/SOURCES.txt'
+[46.411s] running build
+[46.412s] running build_py
+[46.418s] creating /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build
+[46.427s] creating /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib
+[46.446s] creating /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib/pubsub_package
+[46.459s] copying pubsub_package/__init__.py -> /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib/pubsub_package
+[46.464s] copying pubsub_package/publisher.py -> /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib/pubsub_package
+[46.469s] running install
+[46.548s] running install_lib
+[46.992s] creating /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package
+[46.995s] copying /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib/pubsub_package/__init__.py -> /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package
+[46.999s] copying /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build/lib/pubsub_package/publisher.py -> /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package
+[47.005s] byte-compiling /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package/__init__.py to __init__.cpython-312.pyc
+[47.010s] byte-compiling /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package/publisher.py to publisher.cpython-312.pyc
+[47.025s] running install_data
+[47.029s] creating /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/share/ament_index
+[47.029s] creating /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/share/ament_index/resource_index
+[47.034s] creating /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/share/ament_index/resource_index/packages
+[47.038s] copying resource/pubsub_package -> /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/share/ament_index/resource_index/packages
+[47.039s] copying package.xml -> /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/share/pubsub_package
+[47.039s] running install_egg_info
+[47.374s] Copying ../build/pubsub_package/pubsub_package.egg-info to /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages/pubsub_package-0.0.0-py3.12.egg-info
+[47.397s] running install_scripts
+[49.233s] Installing talker script to /home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/pubsub_package
+[49.240s] writing list of installed files to '/home/joffre/ros2_tutorials_ws/src/build/pubsub_package/install.log'
+[49.609s] Invoked command in '/home/joffre/ros2_tutorials_ws/src/pubsub_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joffre/ros2_tutorials_ws/src/build/pubsub_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joffre/ros2_tutorials_ws/src/install/pubsub_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pubsub_package build --build-base /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/build install --record /home/joffre/ros2_tutorials_ws/src/build/pubsub_package/install.log --single-version-externally-managed install_data

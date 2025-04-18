@@ -1,0 +1,2 @@
+[console_scripts]
+joffe_node = my_first_package.joffe_node:main
